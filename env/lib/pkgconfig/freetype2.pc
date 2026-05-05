@@ -1,0 +1,13 @@
+prefix=/Users/yangzhenyu/Desktop/BST281/project/BST281_final_project/env
+exec_prefix=/Users/yangzhenyu/Desktop/BST281/project/BST281_final_project/env
+libdir=/Users/yangzhenyu/Desktop/BST281/project/BST281_final_project/env/lib
+includedir=/Users/yangzhenyu/Desktop/BST281/project/BST281_final_project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.6.20
+Requires: 
+Libs: -L/Users/yangzhenyu/Desktop/BST281/project/BST281_final_project/env/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

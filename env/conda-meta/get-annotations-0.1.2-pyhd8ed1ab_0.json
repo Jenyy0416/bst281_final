@@ -1,0 +1,105 @@
+{
+  "name": "get-annotations",
+  "version": "0.1.2",
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "get-annotations-0.1.2-pyhd8ed1ab_0.conda",
+  "md5": "bcfd54a764cb91dcc9e6e97c0b7ac6f4",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/get-annotations-0.1.2-pyhd8ed1ab_0.conda",
+  "sha256": "d6cd7b0c3a9ddb6cb8cb23c29b492bb7d6250c89c4924ba85ab1fe453b79941f",
+  "depends": [
+    "python >=3.6"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "MIT",
+  "package_type": "noarch_python",
+  "timestamp": 1678462367000,
+  "size": 10343,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/get-annotations-0.1.2-pyhd8ed1ab_0.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/get-annotations-0.1.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/get_annotations-0.1.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/get_annotations-0.1.2.dist-info/LICENSE",
+    "lib/python3.9/site-packages/get_annotations-0.1.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/get_annotations-0.1.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/get_annotations-0.1.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/get_annotations-0.1.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/get_annotations-0.1.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/get_annotations/__init__.py",
+    "lib/python3.9/site-packages/get_annotations/__pycache__/__init__.cpython-39.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/get_annotations-0.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/get_annotations-0.1.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "72cfd312872a2088064082a2f9e96078e6335dba533fbb6afa06af1e25c36b2c",
+        "size_in_bytes": 1149,
+        "sha256_in_prefix": "72cfd312872a2088064082a2f9e96078e6335dba533fbb6afa06af1e25c36b2c"
+      },
+      {
+        "_path": "site-packages/get_annotations-0.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b72ba718a85c15f9522ad1908804b75198954cf580c535c87fa6e1e9abbdc8ba",
+        "size_in_bytes": 3340,
+        "sha256_in_prefix": "b72ba718a85c15f9522ad1908804b75198954cf580c535c87fa6e1e9abbdc8ba"
+      },
+      {
+        "_path": "site-packages/get_annotations-0.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5fd6d1487062b1f41c550b63da3d10561c8bd278fbbcabe2846db6ffd5c83493",
+        "size_in_bytes": 767,
+        "sha256_in_prefix": "5fd6d1487062b1f41c550b63da3d10561c8bd278fbbcabe2846db6ffd5c83493"
+      },
+      {
+        "_path": "site-packages/get_annotations-0.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/get_annotations-0.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "90bb84f26d56614d08834fd8106ad7c93b6226f28fa4ba431220a188dc9e8b96",
+        "size_in_bytes": 88,
+        "sha256_in_prefix": "90bb84f26d56614d08834fd8106ad7c93b6226f28fa4ba431220a188dc9e8b96"
+      },
+      {
+        "_path": "site-packages/get_annotations-0.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f3f5f99e44356707ac2b6261e9b9c48252e26b33ccf127e65cbe8358345dda0e",
+        "size_in_bytes": 111,
+        "sha256_in_prefix": "f3f5f99e44356707ac2b6261e9b9c48252e26b33ccf127e65cbe8358345dda0e"
+      },
+      {
+        "_path": "site-packages/get_annotations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5404667f8c9eda98b6c8954fc27c41b1a02cd6528c5ec45f68bb38a26b6d2ad3",
+        "size_in_bytes": 4831,
+        "sha256_in_prefix": "5404667f8c9eda98b6c8954fc27c41b1a02cd6528c5ec45f68bb38a26b6d2ad3"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/get_annotations/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3746
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/get-annotations-0.1.2-pyhd8ed1ab_0",
+    "type": 1
+  }
+}

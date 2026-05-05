@@ -1,0 +1,66 @@
+{
+  "name": "libbrotlienc",
+  "version": "1.2.0",
+  "build": "hc919400_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libbrotlienc-1.2.0-hc919400_1.conda",
+  "md5": "b2b7c8288ca1a2d71ff97a8e6a1e8883",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libbrotlienc-1.2.0-hc919400_1.conda",
+  "sha256": "01436c32bb41f9cb4bcf07dda647ce4e5deb8307abfc3abdc8da5317db8189d1",
+  "depends": [
+    "__osx >=11.0",
+    "libbrotlicommon 1.2.0 hc919400_1"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1764018009000,
+  "size": 290754,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libbrotlienc-1.2.0-hc919400_1.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libbrotlienc-1.2.0-hc919400_1",
+  "files": [
+    "lib/libbrotlienc.1.2.0.dylib",
+    "lib/libbrotlienc.1.dylib",
+    "lib/libbrotlienc.dylib",
+    "lib/pkgconfig/libbrotlienc.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libbrotlienc.1.2.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "d534650256ec86338e9be9632776dd101ed42dfec37aa1d463abf884cb5a383b",
+        "size_in_bytes": 722048,
+        "sha256_in_prefix": "d534650256ec86338e9be9632776dd101ed42dfec37aa1d463abf884cb5a383b"
+      },
+      {
+        "_path": "lib/libbrotlienc.1.dylib",
+        "path_type": "softlink",
+        "sha256": "d534650256ec86338e9be9632776dd101ed42dfec37aa1d463abf884cb5a383b",
+        "size_in_bytes": 722048
+      },
+      {
+        "_path": "lib/libbrotlienc.dylib",
+        "path_type": "softlink",
+        "sha256": "d534650256ec86338e9be9632776dd101ed42dfec37aa1d463abf884cb5a383b",
+        "size_in_bytes": 722048
+      },
+      {
+        "_path": "lib/pkgconfig/libbrotlienc.pc",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/brotli-split_1764017116075/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "92914e0a8655d1b7b30d8f844859e0725e983301c58d93b6399d4e6b63d169a9",
+        "size_in_bytes": 787,
+        "sha256_in_prefix": "f645b185d915890f38f3e149eefb0a6453b785d41b9582a8922947c643ad2b85"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libbrotlienc-1.2.0-hc919400_1",
+    "type": 1
+  }
+}

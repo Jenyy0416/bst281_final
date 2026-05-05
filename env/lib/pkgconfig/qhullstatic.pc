@@ -1,0 +1,10 @@
+prefix=/Users/yangzhenyu/Desktop/BST281/project/BST281_final_project/env
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qhullstatic
+Description: Qhull static library
+Version: 8.0.2
+Libs: -L${libdir} -lqhullstatic
+Cflags: -I${includedir}
+

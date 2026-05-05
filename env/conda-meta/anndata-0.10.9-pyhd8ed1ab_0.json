@@ -1,0 +1,698 @@
+{
+  "name": "anndata",
+  "version": "0.10.9",
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "anndata-0.10.9-pyhd8ed1ab_0.conda",
+  "md5": "bb6507c7e305811916a9632c451ab15f",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/anndata-0.10.9-pyhd8ed1ab_0.conda",
+  "sha256": "61a4f0b5e72b6dc9210b3bd29487fc89d18f4e2a0468237834be2d266b13f87a",
+  "depends": [
+    "array-api-compat >1.4,!=1.5",
+    "exceptiongroup",
+    "h5py >=3.1",
+    "natsort",
+    "numpy >=1.23",
+    "packaging >=20",
+    "pandas >=1.4,!=2.1.2",
+    "python >=3.9",
+    "scipy >=1.8,<1.15.0a0"
+  ],
+  "constrains": [
+    "zarr <3",
+    "pandas <3"
+  ],
+  "noarch": "python",
+  "license": "BSD-3-Clause",
+  "package_type": "noarch_python",
+  "timestamp": 1724877043000,
+  "size": 102729,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/anndata-0.10.9-pyhd8ed1ab_0.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/anndata-0.10.9-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/anndata-0.10.9.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/anndata-0.10.9.dist-info/METADATA",
+    "lib/python3.9/site-packages/anndata-0.10.9.dist-info/RECORD",
+    "lib/python3.9/site-packages/anndata-0.10.9.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/anndata-0.10.9.dist-info/WHEEL",
+    "lib/python3.9/site-packages/anndata-0.10.9.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/anndata-0.10.9.dist-info/licenses/LICENSE",
+    "lib/python3.9/site-packages/anndata/__init__.py",
+    "lib/python3.9/site-packages/anndata/_core/__init__.py",
+    "lib/python3.9/site-packages/anndata/_core/access.py",
+    "lib/python3.9/site-packages/anndata/_core/aligned_df.py",
+    "lib/python3.9/site-packages/anndata/_core/aligned_mapping.py",
+    "lib/python3.9/site-packages/anndata/_core/anndata.py",
+    "lib/python3.9/site-packages/anndata/_core/file_backing.py",
+    "lib/python3.9/site-packages/anndata/_core/index.py",
+    "lib/python3.9/site-packages/anndata/_core/merge.py",
+    "lib/python3.9/site-packages/anndata/_core/raw.py",
+    "lib/python3.9/site-packages/anndata/_core/sparse_dataset.py",
+    "lib/python3.9/site-packages/anndata/_core/storage.py",
+    "lib/python3.9/site-packages/anndata/_core/views.py",
+    "lib/python3.9/site-packages/anndata/_io/__init__.py",
+    "lib/python3.9/site-packages/anndata/_io/h5ad.py",
+    "lib/python3.9/site-packages/anndata/_io/read.py",
+    "lib/python3.9/site-packages/anndata/_io/specs/__init__.py",
+    "lib/python3.9/site-packages/anndata/_io/specs/methods.py",
+    "lib/python3.9/site-packages/anndata/_io/specs/registry.py",
+    "lib/python3.9/site-packages/anndata/_io/utils.py",
+    "lib/python3.9/site-packages/anndata/_io/write.py",
+    "lib/python3.9/site-packages/anndata/_io/zarr.py",
+    "lib/python3.9/site-packages/anndata/_types.py",
+    "lib/python3.9/site-packages/anndata/_version.py",
+    "lib/python3.9/site-packages/anndata/_warnings.py",
+    "lib/python3.9/site-packages/anndata/compat/__init__.py",
+    "lib/python3.9/site-packages/anndata/compat/exceptiongroups.py",
+    "lib/python3.9/site-packages/anndata/core.py",
+    "lib/python3.9/site-packages/anndata/experimental/__init__.py",
+    "lib/python3.9/site-packages/anndata/experimental/_dispatch_io.py",
+    "lib/python3.9/site-packages/anndata/experimental/merge.py",
+    "lib/python3.9/site-packages/anndata/experimental/multi_files/__init__.py",
+    "lib/python3.9/site-packages/anndata/experimental/multi_files/_anncollection.py",
+    "lib/python3.9/site-packages/anndata/experimental/pytorch/__init__.py",
+    "lib/python3.9/site-packages/anndata/experimental/pytorch/_annloader.py",
+    "lib/python3.9/site-packages/anndata/logging.py",
+    "lib/python3.9/site-packages/anndata/readwrite.py",
+    "lib/python3.9/site-packages/anndata/tests/helpers.py",
+    "lib/python3.9/site-packages/anndata/utils.py",
+    "lib/python3.9/site-packages/testing/anndata/__init__.py",
+    "lib/python3.9/site-packages/testing/anndata/_helpers.py",
+    "lib/python3.9/site-packages/testing/anndata/_pytest.py",
+    "lib/python3.9/site-packages/testing/anndata/py.typed",
+    "lib/python3.9/site-packages/anndata/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/access.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/aligned_df.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/aligned_mapping.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/anndata.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/file_backing.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/index.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/raw.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/sparse_dataset.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/storage.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_core/__pycache__/views.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/__pycache__/h5ad.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/__pycache__/read.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/specs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/specs/__pycache__/methods.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/specs/__pycache__/registry.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/__pycache__/write.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/_io/__pycache__/zarr.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/__pycache__/_types.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/__pycache__/_warnings.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/compat/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/compat/__pycache__/exceptiongroups.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/experimental/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/experimental/__pycache__/_dispatch_io.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/experimental/__pycache__/merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/experimental/multi_files/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/experimental/multi_files/__pycache__/_anncollection.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/experimental/pytorch/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/experimental/pytorch/__pycache__/_annloader.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/__pycache__/logging.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/__pycache__/readwrite.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/tests/__pycache__/helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/anndata/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/testing/anndata/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/testing/anndata/__pycache__/_helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/testing/anndata/__pycache__/_pytest.cpython-39.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/anndata-0.10.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/anndata-0.10.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "77ba67215aa19db872fb03e7c6486b2579adfe2b326541641869eed45d45ff09",
+        "size_in_bytes": 6874,
+        "sha256_in_prefix": "77ba67215aa19db872fb03e7c6486b2579adfe2b326541641869eed45d45ff09"
+      },
+      {
+        "_path": "site-packages/anndata-0.10.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2c627fedb14b9a5bced21f7765bcdc5ac1df32d3999de88f2445f82301c46007",
+        "size_in_bytes": 6489,
+        "sha256_in_prefix": "2c627fedb14b9a5bced21f7765bcdc5ac1df32d3999de88f2445f82301c46007"
+      },
+      {
+        "_path": "site-packages/anndata-0.10.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/anndata-0.10.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "size_in_bytes": 87,
+        "sha256_in_prefix": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516"
+      },
+      {
+        "_path": "site-packages/anndata-0.10.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d4cbfdbdb7ffcae7068428a350cb375e8b21e60308f6151c60453c1e223b4424",
+        "size_in_bytes": 103,
+        "sha256_in_prefix": "d4cbfdbdb7ffcae7068428a350cb375e8b21e60308f6151c60453c1e223b4424"
+      },
+      {
+        "_path": "site-packages/anndata-0.10.9.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fed946ddb845288dbab212ed782fe020b9d2d7b83680e6e13763d0aa3c384cbe",
+        "size_in_bytes": 1544,
+        "sha256_in_prefix": "fed946ddb845288dbab212ed782fe020b9d2d7b83680e6e13763d0aa3c384cbe"
+      },
+      {
+        "_path": "site-packages/anndata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ed1edd28715e406681746b52b9ca339fa481b47c309a1b7b84e6178ed2178ca4",
+        "size_in_bytes": 1913,
+        "sha256_in_prefix": "ed1edd28715e406681746b52b9ca339fa481b47c309a1b7b84e6178ed2178ca4"
+      },
+      {
+        "_path": "site-packages/anndata/_core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/anndata/_core/access.py",
+        "path_type": "hardlink",
+        "sha256": "ebed652d0ba761198abf5756d66fdaaacb633476e08285d5d6f0524e4b43395e",
+        "size_in_bytes": 880,
+        "sha256_in_prefix": "ebed652d0ba761198abf5756d66fdaaacb633476e08285d5d6f0524e4b43395e"
+      },
+      {
+        "_path": "site-packages/anndata/_core/aligned_df.py",
+        "path_type": "hardlink",
+        "sha256": "78db0da8ac3fe4ec857303f25c7a2c560b6495185eebd81c707168bef6f9cd1b",
+        "size_in_bytes": 2835,
+        "sha256_in_prefix": "78db0da8ac3fe4ec857303f25c7a2c560b6495185eebd81c707168bef6f9cd1b"
+      },
+      {
+        "_path": "site-packages/anndata/_core/aligned_mapping.py",
+        "path_type": "hardlink",
+        "sha256": "dd7cec7a528f9467b80c2345b423ef23cbdeac2ff28abed8390fd2d183eb405b",
+        "size_in_bytes": 13906,
+        "sha256_in_prefix": "dd7cec7a528f9467b80c2345b423ef23cbdeac2ff28abed8390fd2d183eb405b"
+      },
+      {
+        "_path": "site-packages/anndata/_core/anndata.py",
+        "path_type": "hardlink",
+        "sha256": "b90e3e0a3db368ab33cafb7cdbb1c5df192f1f9d6709f35bf275d16270621041",
+        "size_in_bytes": 73556,
+        "sha256_in_prefix": "b90e3e0a3db368ab33cafb7cdbb1c5df192f1f9d6709f35bf275d16270621041"
+      },
+      {
+        "_path": "site-packages/anndata/_core/file_backing.py",
+        "path_type": "hardlink",
+        "sha256": "61c24f7ebe4126adba95c062217b66e5d0383dbd0661e269ab0dd0a6c5e0d524",
+        "size_in_bytes": 4472,
+        "sha256_in_prefix": "61c24f7ebe4126adba95c062217b66e5d0383dbd0661e269ab0dd0a6c5e0d524"
+      },
+      {
+        "_path": "site-packages/anndata/_core/index.py",
+        "path_type": "hardlink",
+        "sha256": "c1349cbe5eeb407a24b25dce170ed64d4fee5d4b3972fd3ed1208476060825d6",
+        "size_in_bytes": 8014,
+        "sha256_in_prefix": "c1349cbe5eeb407a24b25dce170ed64d4fee5d4b3972fd3ed1208476060825d6"
+      },
+      {
+        "_path": "site-packages/anndata/_core/merge.py",
+        "path_type": "hardlink",
+        "sha256": "33d998b60b1caa59c6eed602104623945afc954603298edf1edb01056c8ec5a8",
+        "size_in_bytes": 44460,
+        "sha256_in_prefix": "33d998b60b1caa59c6eed602104623945afc954603298edf1edb01056c8ec5a8"
+      },
+      {
+        "_path": "site-packages/anndata/_core/raw.py",
+        "path_type": "hardlink",
+        "sha256": "4338f0fe6cacbed205230a06aab34be69b3e0e8c50ecbc186e14f3d866e99b69",
+        "size_in_bytes": 7803,
+        "sha256_in_prefix": "4338f0fe6cacbed205230a06aab34be69b3e0e8c50ecbc186e14f3d866e99b69"
+      },
+      {
+        "_path": "site-packages/anndata/_core/sparse_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "39256c1f9c2b5b2bb8d0964733e36f88d57354a08c881a9fadf51b7e337ff41c",
+        "size_in_bytes": 23427,
+        "sha256_in_prefix": "39256c1f9c2b5b2bb8d0964733e36f88d57354a08c881a9fadf51b7e337ff41c"
+      },
+      {
+        "_path": "site-packages/anndata/_core/storage.py",
+        "path_type": "hardlink",
+        "sha256": "0702eb387d16d7879ffb0e05ea6a137cd87802570a7939567195c7ab23559e51",
+        "size_in_bytes": 3129,
+        "sha256_in_prefix": "0702eb387d16d7879ffb0e05ea6a137cd87802570a7939567195c7ab23559e51"
+      },
+      {
+        "_path": "site-packages/anndata/_core/views.py",
+        "path_type": "hardlink",
+        "sha256": "f575a923872d0ae0e6b4bdd152194ff6c4551d121dcf7c4b45ff9046a190594a",
+        "size_in_bytes": 13435,
+        "sha256_in_prefix": "f575a923872d0ae0e6b4bdd152194ff6c4551d121dcf7c4b45ff9046a190594a"
+      },
+      {
+        "_path": "site-packages/anndata/_io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3e031cef937526513637494c7bc83dafa52f295055bd6fdcd82f77edb56fc22",
+        "size_in_bytes": 690,
+        "sha256_in_prefix": "c3e031cef937526513637494c7bc83dafa52f295055bd6fdcd82f77edb56fc22"
+      },
+      {
+        "_path": "site-packages/anndata/_io/h5ad.py",
+        "path_type": "hardlink",
+        "sha256": "ed6962e6b822dd15c3873c2324d3b5c032bb4e7c9266a494c0d8588f0e099a21",
+        "size_in_bytes": 13478,
+        "sha256_in_prefix": "ed6962e6b822dd15c3873c2324d3b5c032bb4e7c9266a494c0d8588f0e099a21"
+      },
+      {
+        "_path": "site-packages/anndata/_io/read.py",
+        "path_type": "hardlink",
+        "sha256": "5246ee6b5273a87857a5c01eaf9423d004ece008e760ed77a218fc72613a6d65",
+        "size_in_bytes": 15275,
+        "sha256_in_prefix": "5246ee6b5273a87857a5c01eaf9423d004ece008e760ed77a218fc72613a6d65"
+      },
+      {
+        "_path": "site-packages/anndata/_io/specs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5f6931cb12ee2dafafd454ff56a4c85a38d3a0de664b4622c47d47281c944a29",
+        "size_in_bytes": 317,
+        "sha256_in_prefix": "5f6931cb12ee2dafafd454ff56a4c85a38d3a0de664b4622c47d47281c944a29"
+      },
+      {
+        "_path": "site-packages/anndata/_io/specs/methods.py",
+        "path_type": "hardlink",
+        "sha256": "551ce9e32546b12e91a8915406606b70968469685356bd1388500813f7781cb2",
+        "size_in_bytes": 36297,
+        "sha256_in_prefix": "551ce9e32546b12e91a8915406606b70968469685356bd1388500813f7781cb2"
+      },
+      {
+        "_path": "site-packages/anndata/_io/specs/registry.py",
+        "path_type": "hardlink",
+        "sha256": "d402f088a9425f2cd1508c569f0092abad07ea62b348ac285447979bd7961b64",
+        "size_in_bytes": 12039,
+        "sha256_in_prefix": "d402f088a9425f2cd1508c569f0092abad07ea62b348ac285447979bd7961b64"
+      },
+      {
+        "_path": "site-packages/anndata/_io/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5b4f8f7c8ed582e76cdf49c55dd966e65c0d5b9bee90f60d2e0c653288857770",
+        "size_in_bytes": 7998,
+        "sha256_in_prefix": "5b4f8f7c8ed582e76cdf49c55dd966e65c0d5b9bee90f60d2e0c653288857770"
+      },
+      {
+        "_path": "site-packages/anndata/_io/write.py",
+        "path_type": "hardlink",
+        "sha256": "eeed1fe1d59c5d49575542a485860420239d69fdfe281b32aef6636976949604",
+        "size_in_bytes": 4549,
+        "sha256_in_prefix": "eeed1fe1d59c5d49575542a485860420239d69fdfe281b32aef6636976949604"
+      },
+      {
+        "_path": "site-packages/anndata/_io/zarr.py",
+        "path_type": "hardlink",
+        "sha256": "9116ed22b383a018520892268306d8e054d2837722f733feb7324fa1a75929d2",
+        "size_in_bytes": 4289,
+        "sha256_in_prefix": "9116ed22b383a018520892268306d8e054d2837722f733feb7324fa1a75929d2"
+      },
+      {
+        "_path": "site-packages/anndata/_types.py",
+        "path_type": "hardlink",
+        "sha256": "dd9504e0255decfd7623e326da43e2a69a07533d54110daf1e5f55a3c310327d",
+        "size_in_bytes": 5360,
+        "sha256_in_prefix": "dd9504e0255decfd7623e326da43e2a69a07533d54110daf1e5f55a3c310327d"
+      },
+      {
+        "_path": "site-packages/anndata/_version.py",
+        "path_type": "hardlink",
+        "sha256": "f23b43b660484c1df186336828414b9543879a77e81df17bf06cc300476582f0",
+        "size_in_bytes": 413,
+        "sha256_in_prefix": "f23b43b660484c1df186336828414b9543879a77e81df17bf06cc300476582f0"
+      },
+      {
+        "_path": "site-packages/anndata/_warnings.py",
+        "path_type": "hardlink",
+        "sha256": "72b1dd70b08ed2ac709f6e6e516acc1dd5c22382fadbf1551be52fe0d9841995",
+        "size_in_bytes": 732,
+        "sha256_in_prefix": "72b1dd70b08ed2ac709f6e6e516acc1dd5c22382fadbf1551be52fe0d9841995"
+      },
+      {
+        "_path": "site-packages/anndata/compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a1c7dacd8f2ada1f4afe3bcafb7b78c0dbba6d1dcf698ee3a89aa683a2783fe",
+        "size_in_bytes": 12533,
+        "sha256_in_prefix": "5a1c7dacd8f2ada1f4afe3bcafb7b78c0dbba6d1dcf698ee3a89aa683a2783fe"
+      },
+      {
+        "_path": "site-packages/anndata/compat/exceptiongroups.py",
+        "path_type": "hardlink",
+        "sha256": "14bc2174c2b24bef8dad3f9487ed3ae73da76b8d1b52c61bb6efe516466bf8e0",
+        "size_in_bytes": 330,
+        "sha256_in_prefix": "14bc2174c2b24bef8dad3f9487ed3ae73da76b8d1b52c61bb6efe516466bf8e0"
+      },
+      {
+        "_path": "site-packages/anndata/core.py",
+        "path_type": "hardlink",
+        "sha256": "55879f406e5dba74336da04b486e4eeaf490df0d3ed3439f7a2fbcdbe9e9e336",
+        "size_in_bytes": 183,
+        "sha256_in_prefix": "55879f406e5dba74336da04b486e4eeaf490df0d3ed3439f7a2fbcdbe9e9e336"
+      },
+      {
+        "_path": "site-packages/anndata/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5240d9d77b8b4bf0731743b572aa8bec5c70008a00e2a384bdbb921cb93b2777",
+        "size_in_bytes": 1199,
+        "sha256_in_prefix": "5240d9d77b8b4bf0731743b572aa8bec5c70008a00e2a384bdbb921cb93b2777"
+      },
+      {
+        "_path": "site-packages/anndata/experimental/_dispatch_io.py",
+        "path_type": "hardlink",
+        "sha256": "00e59e6241977e0b3c9b9be5c851ea37cc0ba4827163cf8da1847836ac55ff0e",
+        "size_in_bytes": 1865,
+        "sha256_in_prefix": "00e59e6241977e0b3c9b9be5c851ea37cc0ba4827163cf8da1847836ac55ff0e"
+      },
+      {
+        "_path": "site-packages/anndata/experimental/merge.py",
+        "path_type": "hardlink",
+        "sha256": "18ce7228b25d447ad70215beac798ffed0037691c6ae1829adde9da739c6fa67",
+        "size_in_bytes": 21315,
+        "sha256_in_prefix": "18ce7228b25d447ad70215beac798ffed0037691c6ae1829adde9da739c6fa67"
+      },
+      {
+        "_path": "site-packages/anndata/experimental/multi_files/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4fb88d2e545b7be2a72d3de8ed36fbfe7138232fe12e41bae948c13af8f6063f",
+        "size_in_bytes": 107,
+        "sha256_in_prefix": "4fb88d2e545b7be2a72d3de8ed36fbfe7138232fe12e41bae948c13af8f6063f"
+      },
+      {
+        "_path": "site-packages/anndata/experimental/multi_files/_anncollection.py",
+        "path_type": "hardlink",
+        "sha256": "748edc10867feffaaea9eaf32d7f4fb62eec221ad961feab248750343445888e",
+        "size_in_bytes": 34895,
+        "sha256_in_prefix": "748edc10867feffaaea9eaf32d7f4fb62eec221ad961feab248750343445888e"
+      },
+      {
+        "_path": "site-packages/anndata/experimental/pytorch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e02920ada84b3bc29cfacd9b9afea55507c3c5b3b7214c95d2fe328010e4b6d6",
+        "size_in_bytes": 95,
+        "sha256_in_prefix": "e02920ada84b3bc29cfacd9b9afea55507c3c5b3b7214c95d2fe328010e4b6d6"
+      },
+      {
+        "_path": "site-packages/anndata/experimental/pytorch/_annloader.py",
+        "path_type": "hardlink",
+        "sha256": "0f6c1349ab2f49475dbf4144b55b2911160edfb6236dbd0afbc4b586b06503f6",
+        "size_in_bytes": 7136,
+        "sha256_in_prefix": "0f6c1349ab2f49475dbf4144b55b2911160edfb6236dbd0afbc4b586b06503f6"
+      },
+      {
+        "_path": "site-packages/anndata/logging.py",
+        "path_type": "hardlink",
+        "sha256": "656f73548cdbc0528e1293d0a998ac3a783c2c333d67d7864428efea98c048d7",
+        "size_in_bytes": 1465,
+        "sha256_in_prefix": "656f73548cdbc0528e1293d0a998ac3a783c2c333d67d7864428efea98c048d7"
+      },
+      {
+        "_path": "site-packages/anndata/readwrite.py",
+        "path_type": "hardlink",
+        "sha256": "77d18b8c8a18701818fa3fabeb637488e551ef4d639b5e804ed9da50c9094263",
+        "size_in_bytes": 186,
+        "sha256_in_prefix": "77d18b8c8a18701818fa3fabeb637488e551ef4d639b5e804ed9da50c9094263"
+      },
+      {
+        "_path": "site-packages/anndata/tests/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "c07b0fb14680003b3bb2536ca529b234de045d8cce72eda80ba8f8433c94ded9",
+        "size_in_bytes": 23559,
+        "sha256_in_prefix": "c07b0fb14680003b3bb2536ca529b234de045d8cce72eda80ba8f8433c94ded9"
+      },
+      {
+        "_path": "site-packages/anndata/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e12a626ac49513b2a9d8a19a20b1bbc8be69b3cf59729fd581472b8fdb63c023",
+        "size_in_bytes": 13303,
+        "sha256_in_prefix": "e12a626ac49513b2a9d8a19a20b1bbc8be69b3cf59729fd581472b8fdb63c023"
+      },
+      {
+        "_path": "site-packages/testing/anndata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/testing/anndata/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "72be24e3690ca425ce58831de8ca5eaaa6abd5c45f8737156d8bf8274b1ecf0f",
+        "size_in_bytes": 298,
+        "sha256_in_prefix": "72be24e3690ca425ce58831de8ca5eaaa6abd5c45f8737156d8bf8274b1ecf0f"
+      },
+      {
+        "_path": "site-packages/testing/anndata/_pytest.py",
+        "path_type": "hardlink",
+        "sha256": "95d464c863db8465b2a23fd432c6e2847ca65ff8fb8a2d2ff1cd62cbc64bebd6",
+        "size_in_bytes": 4026,
+        "sha256_in_prefix": "95d464c863db8465b2a23fd432c6e2847ca65ff8fb8a2d2ff1cd62cbc64bebd6"
+      },
+      {
+        "_path": "site-packages/testing/anndata/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1632
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/access.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1865
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/aligned_df.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2695
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/aligned_mapping.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 15831
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/anndata.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 58366
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/file_backing.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5901
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/index.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6807
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/merge.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 44207
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/raw.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7310
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/sparse_dataset.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 22298
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/storage.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3428
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_core/__pycache__/views.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 14765
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/__pycache__/h5ad.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 10386
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/__pycache__/read.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 11219
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/specs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/specs/__pycache__/methods.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 24230
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/specs/__pycache__/registry.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 11570
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7437
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/__pycache__/write.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4173
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/_io/__pycache__/zarr.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3924
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/__pycache__/_types.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5788
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/__pycache__/_warnings.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/compat/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 13539
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/compat/__pycache__/exceptiongroups.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 541
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/experimental/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/experimental/__pycache__/_dispatch_io.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2088
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/experimental/__pycache__/merge.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 20018
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/experimental/multi_files/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/experimental/multi_files/__pycache__/_anncollection.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 30759
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/experimental/pytorch/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/experimental/pytorch/__pycache__/_annloader.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 5491
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/__pycache__/logging.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/__pycache__/readwrite.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 335
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/tests/__pycache__/helpers.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 21912
+      },
+      {
+        "_path": "lib/python3.9/site-packages/anndata/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 12007
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testing/anndata/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testing/anndata/__pycache__/_helpers.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testing/anndata/__pycache__/_pytest.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4189
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/anndata-0.10.9-pyhd8ed1ab_0",
+    "type": 1
+  }
+}

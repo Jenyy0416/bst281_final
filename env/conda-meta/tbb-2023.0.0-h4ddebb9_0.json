@@ -1,0 +1,80 @@
+{
+  "name": "tbb",
+  "version": "2023.0.0",
+  "build": "h4ddebb9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "tbb-2023.0.0-h4ddebb9_0.conda",
+  "md5": "f5a14c890d43f8809b816d87d784b326",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/tbb-2023.0.0-h4ddebb9_0.conda",
+  "sha256": "22b81f230b42d556945b01689e0e94b9a23986cced38c4fe7e67ffb7ce6d786b",
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=19",
+    "libhwloc >=2.13.0,<2.13.1.0a0"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1777878729000,
+  "size": 122459,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/tbb-2023.0.0-h4ddebb9_0.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/tbb-2023.0.0-h4ddebb9_0",
+  "files": [
+    "lib/libtbb.12.18.dylib",
+    "lib/libtbb.12.dylib",
+    "lib/libtbbmalloc.2.18.dylib",
+    "lib/libtbbmalloc.2.dylib",
+    "lib/libtbbmalloc_proxy.2.18.dylib",
+    "lib/libtbbmalloc_proxy.2.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libtbb.12.18.dylib",
+        "path_type": "hardlink",
+        "sha256": "36e6e29706bf59ea185acf744c4d4d308e05f60e995520b9765c972fff7c9197",
+        "size_in_bytes": 371616,
+        "sha256_in_prefix": "36e6e29706bf59ea185acf744c4d4d308e05f60e995520b9765c972fff7c9197"
+      },
+      {
+        "_path": "lib/libtbb.12.dylib",
+        "path_type": "softlink",
+        "sha256": "36e6e29706bf59ea185acf744c4d4d308e05f60e995520b9765c972fff7c9197",
+        "size_in_bytes": 371616
+      },
+      {
+        "_path": "lib/libtbbmalloc.2.18.dylib",
+        "path_type": "hardlink",
+        "sha256": "a63894580e17c1df8989640079f5e69a2c9aa30de5de12c949ca875c046b2c8a",
+        "size_in_bytes": 110960,
+        "sha256_in_prefix": "a63894580e17c1df8989640079f5e69a2c9aa30de5de12c949ca875c046b2c8a"
+      },
+      {
+        "_path": "lib/libtbbmalloc.2.dylib",
+        "path_type": "softlink",
+        "sha256": "a63894580e17c1df8989640079f5e69a2c9aa30de5de12c949ca875c046b2c8a",
+        "size_in_bytes": 110960
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.2.18.dylib",
+        "path_type": "hardlink",
+        "sha256": "952fbcd35f8d60c75d947f22a627b77f7c3e9f5b2d1aa39bbb1465c2816c4ca7",
+        "size_in_bytes": 54656,
+        "sha256_in_prefix": "952fbcd35f8d60c75d947f22a627b77f7c3e9f5b2d1aa39bbb1465c2816c4ca7"
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.2.dylib",
+        "path_type": "softlink",
+        "sha256": "952fbcd35f8d60c75d947f22a627b77f7c3e9f5b2d1aa39bbb1465c2816c4ca7",
+        "size_in_bytes": 54656
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/tbb-2023.0.0-h4ddebb9_0",
+    "type": 1
+  }
+}

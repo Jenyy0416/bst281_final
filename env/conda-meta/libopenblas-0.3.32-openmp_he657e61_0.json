@@ -1,0 +1,67 @@
+{
+  "name": "libopenblas",
+  "version": "0.3.32",
+  "build": "openmp_he657e61_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libopenblas-0.3.32-openmp_he657e61_0.conda",
+  "md5": "3a1111a4b6626abebe8b978bb5a323bf",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenblas-0.3.32-openmp_he657e61_0.conda",
+  "sha256": "713e453bde3531c22a660577e59bf91ef578dcdfd5edb1253a399fa23514949a",
+  "depends": [
+    "__osx >=11.0",
+    "libgfortran",
+    "libgfortran5 >=14.3.0",
+    "llvm-openmp >=19.1.7"
+  ],
+  "constrains": [
+    "openblas >=0.3.32,<0.3.33.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "timestamp": 1774472508000,
+  "size": 4308797,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libopenblas-0.3.32-openmp_he657e61_0.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libopenblas-0.3.32-openmp_he657e61_0",
+  "files": [
+    "lib/libopenblas.0.dylib",
+    "lib/libopenblas_armv8p-r0.3.32.dylib",
+    "lib/libopenblas_vortexp-r0.3.32.dylib",
+    "lib/libopenblasp-r0.3.32.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libopenblas.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "c3053b00401d682e25f88e71aae36ac1173fc3069bff99f86f746ece63acf6f6",
+        "size_in_bytes": 13458928,
+        "sha256_in_prefix": "c3053b00401d682e25f88e71aae36ac1173fc3069bff99f86f746ece63acf6f6"
+      },
+      {
+        "_path": "lib/libopenblas_armv8p-r0.3.32.dylib",
+        "path_type": "softlink",
+        "sha256": "c3053b00401d682e25f88e71aae36ac1173fc3069bff99f86f746ece63acf6f6",
+        "size_in_bytes": 13458928
+      },
+      {
+        "_path": "lib/libopenblas_vortexp-r0.3.32.dylib",
+        "path_type": "softlink",
+        "sha256": "c3053b00401d682e25f88e71aae36ac1173fc3069bff99f86f746ece63acf6f6",
+        "size_in_bytes": 13458928
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.32.dylib",
+        "path_type": "softlink",
+        "sha256": "c3053b00401d682e25f88e71aae36ac1173fc3069bff99f86f746ece63acf6f6",
+        "size_in_bytes": 13458928
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libopenblas-0.3.32-openmp_he657e61_0",
+    "type": 1
+  }
+}

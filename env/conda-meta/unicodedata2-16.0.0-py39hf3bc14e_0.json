@@ -1,0 +1,108 @@
+{
+  "name": "unicodedata2",
+  "version": "16.0.0",
+  "build": "py39hf3bc14e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "unicodedata2-16.0.0-py39hf3bc14e_0.conda",
+  "md5": "041979b8346f5c523dfbcda344d726f6",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/unicodedata2-16.0.0-py39hf3bc14e_0.conda",
+  "sha256": "45d6dcdd901073f9729e3db43773221819429eee9d22658d34e27f15b90ecb89",
+  "depends": [
+    "__osx >=11.0",
+    "python >=3.9,<3.10.0a0",
+    "python >=3.9,<3.10.0a0 *_cpython",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1736692750000,
+  "size": 410020,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/unicodedata2-16.0.0-py39hf3bc14e_0.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/unicodedata2-16.0.0-py39hf3bc14e_0",
+  "files": [
+    "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/unicodedata2.cpython-39-darwin.so"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+        "size_in_bytes": 11325,
+        "sha256_in_prefix": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "743639b824995881384918591115e60969a17cee675b668caeecaea2fd03cb70",
+        "size_in_bytes": 3238,
+        "sha256_in_prefix": "743639b824995881384918591115e60969a17cee675b668caeecaea2fd03cb70"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "085f61507c3d7f5915affff13d9134938a02cbb4d615141605dcd3bd8f2e176f",
+        "size_in_bytes": 807,
+        "sha256_in_prefix": "085f61507c3d7f5915affff13d9134938a02cbb4d615141605dcd3bd8f2e176f"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "99ddc93bf89fb398f9d3ca774c334c82d415b6741b969184b7f5a8e16e7a97c6",
+        "size_in_bytes": 107,
+        "sha256_in_prefix": "99ddc93bf89fb398f9d3ca774c334c82d415b6741b969184b7f5a8e16e7a97c6"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "99ea33f124b0b8dd19fc80b86c4dd919792b47f162e99f074ce2af644859893d",
+        "size_in_bytes": 100,
+        "sha256_in_prefix": "99ea33f124b0b8dd19fc80b86c4dd919792b47f162e99f074ce2af644859893d"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2-16.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2efe3a3c550aa72f5a669a41449f07023f185c6a2da7d9c8bff8b9c93cb523d7",
+        "size_in_bytes": 13,
+        "sha256_in_prefix": "2efe3a3c550aa72f5a669a41449f07023f185c6a2da7d9c8bff8b9c93cb523d7"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/unicodedata2.cpython-39-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "9b315a3ba4efa99f744616486ed34d5c84f3c9577c927b288af25cd3cf2f4eec",
+        "size_in_bytes": 1460880,
+        "sha256_in_prefix": "9b315a3ba4efa99f744616486ed34d5c84f3c9577c927b288af25cd3cf2f4eec"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/unicodedata2-16.0.0-py39hf3bc14e_0",
+    "type": 1
+  }
+}

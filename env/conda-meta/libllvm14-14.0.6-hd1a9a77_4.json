@@ -1,0 +1,58 @@
+{
+  "name": "libllvm14",
+  "version": "14.0.6",
+  "build": "hd1a9a77_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libllvm14-14.0.6-hd1a9a77_4.conda",
+  "md5": "9f3dce5d26ea56a9000cd74c034582bd",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libllvm14-14.0.6-hd1a9a77_4.conda",
+  "sha256": "6f603914fe8633a615f0d2f1383978eb279eeb552079a78449c9fbb43f22a349",
+  "depends": [
+    "libcxx >=15",
+    "libzlib >=1.2.13,<2.0.0a0"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "timestamp": 1690559110000,
+  "size": 20571387,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libllvm14-14.0.6-hd1a9a77_4.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libllvm14-14.0.6-hd1a9a77_4",
+  "files": [
+    "lib/libLLVM-14.dylib",
+    "lib/libLTO.14.dylib",
+    "lib/libRemarks.14.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libLLVM-14.dylib",
+        "path_type": "hardlink",
+        "sha256": "bf03611ae9ac7be6e3198e0dbfaf8cee109332dc0a460dfea4902c56cd7e845b",
+        "size_in_bytes": 98863360,
+        "sha256_in_prefix": "bf03611ae9ac7be6e3198e0dbfaf8cee109332dc0a460dfea4902c56cd7e845b"
+      },
+      {
+        "_path": "lib/libLTO.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "853cbdfbdcb044c8fc512245dfddb19f1368daf483e07a5870b2d2ab8fd85316",
+        "size_in_bytes": 105072,
+        "sha256_in_prefix": "853cbdfbdcb044c8fc512245dfddb19f1368daf483e07a5870b2d2ab8fd85316"
+      },
+      {
+        "_path": "lib/libRemarks.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "d74e5498ab5343cc29586804bc102a2db3c336185a04d34a39a5219ebad05f89",
+        "size_in_bytes": 20480,
+        "sha256_in_prefix": "d74e5498ab5343cc29586804bc102a2db3c336185a04d34a39a5219ebad05f89"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libllvm14-14.0.6-hd1a9a77_4",
+    "type": 1
+  }
+}

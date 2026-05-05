@@ -1,0 +1,149 @@
+{
+  "name": "legacy-api-wrap",
+  "version": "1.4",
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "legacy-api-wrap-1.4-pyhd8ed1ab_1.conda",
+  "md5": "4419c79892d2d6e085f2c53635358e4a",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/legacy-api-wrap-1.4-pyhd8ed1ab_1.conda",
+  "sha256": "e76d6dd6893a7b043c1d47e3f434eb9237c2870d52e41aff0ed00589911e8533",
+  "depends": [
+    "python >=3.8"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "GPL-3.0-or-later",
+  "package_type": "noarch_python",
+  "timestamp": 1713248181000,
+  "size": 20711,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/legacy-api-wrap-1.4-pyhd8ed1ab_1.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/legacy-api-wrap-1.4-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.9/site-packages/legacy_api_wrap-1.4.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/legacy_api_wrap-1.4.dist-info/METADATA",
+    "lib/python3.9/site-packages/legacy_api_wrap-1.4.dist-info/RECORD",
+    "lib/python3.9/site-packages/legacy_api_wrap-1.4.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/legacy_api_wrap-1.4.dist-info/WHEEL",
+    "lib/python3.9/site-packages/legacy_api_wrap-1.4.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/legacy_api_wrap-1.4.dist-info/licenses/LICENSE",
+    "lib/python3.9/site-packages/legacy_api_wrap/__init__.py",
+    "lib/python3.9/site-packages/legacy_api_wrap/py.typed",
+    "lib/python3.9/site-packages/testing/legacy_api_wrap/__init__.py",
+    "lib/python3.9/site-packages/testing/legacy_api_wrap/py.typed",
+    "lib/python3.9/site-packages/testing/legacy_api_wrap/pytest.py",
+    "lib/python3.9/site-packages/legacy_api_wrap/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/testing/legacy_api_wrap/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/testing/legacy_api_wrap/__pycache__/pytest.cpython-39.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/legacy_api_wrap-1.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/legacy_api_wrap-1.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7e1a3e50a7cd22a38270b384d8f561bc731d28bd073c280a721de7dd509c8bc1",
+        "size_in_bytes": 1818,
+        "sha256_in_prefix": "7e1a3e50a7cd22a38270b384d8f561bc731d28bd073c280a721de7dd509c8bc1"
+      },
+      {
+        "_path": "site-packages/legacy_api_wrap-1.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9e31d771ac19b497ab2c5c60718baabef25195cc9d3f8c352fe79e1b688df5b2",
+        "size_in_bytes": 1236,
+        "sha256_in_prefix": "9e31d771ac19b497ab2c5c60718baabef25195cc9d3f8c352fe79e1b688df5b2"
+      },
+      {
+        "_path": "site-packages/legacy_api_wrap-1.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/legacy_api_wrap-1.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c65e5a6648896154e38556a2003bc87ba51e515ca518da26af1299d1975ad421",
+        "size_in_bytes": 87,
+        "sha256_in_prefix": "c65e5a6648896154e38556a2003bc87ba51e515ca518da26af1299d1975ad421"
+      },
+      {
+        "_path": "site-packages/legacy_api_wrap-1.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3f4dcfce421e1d85c1bf4a43e55987e9a4aec5b8fa0b95123214f3f936536a41",
+        "size_in_bytes": 111,
+        "sha256_in_prefix": "3f4dcfce421e1d85c1bf4a43e55987e9a4aec5b8fa0b95123214f3f936536a41"
+      },
+      {
+        "_path": "site-packages/legacy_api_wrap-1.4.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+        "size_in_bytes": 32422,
+        "sha256_in_prefix": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64"
+      },
+      {
+        "_path": "site-packages/legacy_api_wrap/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3b6b7876e96afe25ccf75ce670d6c611aa3b48f25e276104d461a5f58dfc0c6",
+        "size_in_bytes": 3574,
+        "sha256_in_prefix": "b3b6b7876e96afe25ccf75ce670d6c611aa3b48f25e276104d461a5f58dfc0c6"
+      },
+      {
+        "_path": "site-packages/legacy_api_wrap/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/testing/legacy_api_wrap/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa6c01796d663baf615e8caa98bf67cf7473262d4773f661d40685e510b1b3bd",
+        "size_in_bytes": 41,
+        "sha256_in_prefix": "fa6c01796d663baf615e8caa98bf67cf7473262d4773f661d40685e510b1b3bd"
+      },
+      {
+        "_path": "site-packages/testing/legacy_api_wrap/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/testing/legacy_api_wrap/pytest.py",
+        "path_type": "hardlink",
+        "sha256": "e6b62de612f258498b629a59330c4dd8c88da02ad009270864d9bc0b2b0d4543",
+        "size_in_bytes": 987,
+        "sha256_in_prefix": "e6b62de612f258498b629a59330c4dd8c88da02ad009270864d9bc0b2b0d4543"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/legacy_api_wrap/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3824
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testing/legacy_api_wrap/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testing/legacy_api_wrap/__pycache__/pytest.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1271
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/legacy-api-wrap-1.4-pyhd8ed1ab_1",
+    "type": 1
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "name": "lcms2",
+  "version": "2.19",
+  "build": "hdfa7624_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "lcms2-2.19-hdfa7624_0.conda",
+  "md5": "57baad99764cf6057227e50b11e2ec5b",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/lcms2-2.19-hdfa7624_0.conda",
+  "sha256": "fc3c54deb7c9b3738796d0db2a1cf673c0f34a13d5e9964633ca50b7d64a5f52",
+  "depends": [
+    "__osx >=11.0",
+    "libjpeg-turbo >=3.1.4.1,<4.0a0",
+    "libtiff >=4.7.1,<4.8.0a0"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1777250779000,
+  "size": 213171,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/lcms2-2.19-hdfa7624_0.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/lcms2-2.19-hdfa7624_0",
+  "files": [
+    "bin/jpgicc",
+    "bin/linkicc",
+    "bin/psicc",
+    "bin/tificc",
+    "bin/transicc",
+    "include/lcms2.h",
+    "include/lcms2_plugin.h",
+    "lib/liblcms2.2.dylib",
+    "lib/liblcms2.dylib",
+    "lib/pkgconfig/lcms2.pc",
+    "share/man/man1/jpgicc.1",
+    "share/man/man1/linkicc.1",
+    "share/man/man1/psicc.1",
+    "share/man/man1/tificc.1",
+    "share/man/man1/transicc.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/jpgicc",
+        "path_type": "hardlink",
+        "sha256": "2d106292b5015f18bb34f53ed84919f6f2f380f8b0ac8896d9ebd38ac7be2416",
+        "size_in_bytes": 75280,
+        "sha256_in_prefix": "2d106292b5015f18bb34f53ed84919f6f2f380f8b0ac8896d9ebd38ac7be2416"
+      },
+      {
+        "_path": "bin/linkicc",
+        "path_type": "hardlink",
+        "sha256": "201fdf8330340cacb2b1298ae57b0e70b42e5ab296737becb15053fd79fa01d9",
+        "size_in_bytes": 55712,
+        "sha256_in_prefix": "201fdf8330340cacb2b1298ae57b0e70b42e5ab296737becb15053fd79fa01d9"
+      },
+      {
+        "_path": "bin/psicc",
+        "path_type": "hardlink",
+        "sha256": "876d88d81b81a52aef444d5ac7fec4d60f9fbb3ba654211c307ea4019565fab6",
+        "size_in_bytes": 54704,
+        "sha256_in_prefix": "876d88d81b81a52aef444d5ac7fec4d60f9fbb3ba654211c307ea4019565fab6"
+      },
+      {
+        "_path": "bin/tificc",
+        "path_type": "hardlink",
+        "sha256": "2b32cbb340c24ce483c8693bbf3c32a1d634916b5ebeda6c7caddf30fa4b0ce6",
+        "size_in_bytes": 74368,
+        "sha256_in_prefix": "2b32cbb340c24ce483c8693bbf3c32a1d634916b5ebeda6c7caddf30fa4b0ce6"
+      },
+      {
+        "_path": "bin/transicc",
+        "path_type": "hardlink",
+        "sha256": "af170bd480e23f27c5bd412a648fce74156238c5180300c712d92880b6e42ec4",
+        "size_in_bytes": 74672,
+        "sha256_in_prefix": "af170bd480e23f27c5bd412a648fce74156238c5180300c712d92880b6e42ec4"
+      },
+      {
+        "_path": "include/lcms2.h",
+        "path_type": "hardlink",
+        "sha256": "67f73413d7168a0cf7fa94ff3eb0d795fb75668b07d02e6ff583110166ca0f38",
+        "size_in_bytes": 108852,
+        "sha256_in_prefix": "67f73413d7168a0cf7fa94ff3eb0d795fb75668b07d02e6ff583110166ca0f38"
+      },
+      {
+        "_path": "include/lcms2_plugin.h",
+        "path_type": "hardlink",
+        "sha256": "f822480420e2237efce5b9cb4f64e5db2cf299e2e58e4e0a25fc899a61a3cc63",
+        "size_in_bytes": 31557,
+        "sha256_in_prefix": "f822480420e2237efce5b9cb4f64e5db2cf299e2e58e4e0a25fc899a61a3cc63"
+      },
+      {
+        "_path": "lib/liblcms2.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "97a0bd9d339bd7d02887f2836249121e69fab1fc9e212f7cd8e7850601285499",
+        "size_in_bytes": 399424,
+        "sha256_in_prefix": "97a0bd9d339bd7d02887f2836249121e69fab1fc9e212f7cd8e7850601285499"
+      },
+      {
+        "_path": "lib/liblcms2.dylib",
+        "path_type": "softlink",
+        "sha256": "97a0bd9d339bd7d02887f2836249121e69fab1fc9e212f7cd8e7850601285499",
+        "size_in_bytes": 399424
+      },
+      {
+        "_path": "lib/pkgconfig/lcms2.pc",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/lcms2_1777250483798/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "42cead267d47e54fac443871c4c6d020c594509184dbb3814db9a8f77e60e0bb",
+        "size_in_bytes": 489,
+        "sha256_in_prefix": "bffb0903c27cd17faaa47a8e28135dc0c44711ade617f7e2920c13267d39f059"
+      },
+      {
+        "_path": "share/man/man1/jpgicc.1",
+        "path_type": "hardlink",
+        "sha256": "cbbc7358d94e765f43b5590d269428087ad84bcd61e04e230fa832b538a50db4",
+        "size_in_bytes": 2927,
+        "sha256_in_prefix": "cbbc7358d94e765f43b5590d269428087ad84bcd61e04e230fa832b538a50db4"
+      },
+      {
+        "_path": "share/man/man1/linkicc.1",
+        "path_type": "hardlink",
+        "sha256": "7a8ef262b8bfa64598813ba635dda4d78e4d6baadf2ebc6aee36dd6bfebbc6a5",
+        "size_in_bytes": 3365,
+        "sha256_in_prefix": "7a8ef262b8bfa64598813ba635dda4d78e4d6baadf2ebc6aee36dd6bfebbc6a5"
+      },
+      {
+        "_path": "share/man/man1/psicc.1",
+        "path_type": "hardlink",
+        "sha256": "fdae0be0cefd102b99cfe5f0acabfea229648eff74146be1eba5a12c2e65b250",
+        "size_in_bytes": 1217,
+        "sha256_in_prefix": "fdae0be0cefd102b99cfe5f0acabfea229648eff74146be1eba5a12c2e65b250"
+      },
+      {
+        "_path": "share/man/man1/tificc.1",
+        "path_type": "hardlink",
+        "sha256": "352148346b4553773acacae15e29ea1c197bd954aa320fccae60d7c7fffe9677",
+        "size_in_bytes": 2999,
+        "sha256_in_prefix": "352148346b4553773acacae15e29ea1c197bd954aa320fccae60d7c7fffe9677"
+      },
+      {
+        "_path": "share/man/man1/transicc.1",
+        "path_type": "hardlink",
+        "sha256": "64749bb4ad069bb95fd588434ab36f240229ec76347c28373113439cbc1ec78d",
+        "size_in_bytes": 2048,
+        "sha256_in_prefix": "64749bb4ad069bb95fd588434ab36f240229ec76347c28373113439cbc1ec78d"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/lcms2-2.19-hdfa7624_0",
+    "type": 1
+  }
+}

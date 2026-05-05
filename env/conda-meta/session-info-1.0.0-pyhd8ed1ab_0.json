@@ -1,0 +1,134 @@
+{
+  "name": "session-info",
+  "version": "1.0.0",
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "session-info-1.0.0-pyhd8ed1ab_0.tar.bz2",
+  "md5": "4fef7ecb219e639abbc58abe9258d78b",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/session-info-1.0.0-pyhd8ed1ab_0.tar.bz2",
+  "sha256": "495138888eb063ca17481ebb7d96f86c25f8704c8770d56bd98eed3bcadead7f",
+  "depends": [
+    "python >=3.6",
+    "stdlib-list"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "BSD-3-Clause",
+  "package_type": "noarch_python",
+  "timestamp": 1649179763000,
+  "size": 12213,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/session-info-1.0.0-pyhd8ed1ab_0.tar.bz2",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/session-info-1.0.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/session_info-1.0.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/session_info-1.0.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/session_info-1.0.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/session_info-1.0.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/session_info-1.0.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/session_info-1.0.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/session_info-1.0.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/session_info/__init__.py",
+    "lib/python3.9/site-packages/session_info/_version.py",
+    "lib/python3.9/site-packages/session_info/main.py",
+    "lib/python3.9/site-packages/session_info/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/session_info/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/session_info/__pycache__/main.cpython-39.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/session_info-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/session_info-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2d379d424a0a2b559ea0a1479626ed52ccf6c463327c925394a6bec2362d530d",
+        "size_in_bytes": 4786,
+        "sha256_in_prefix": "2d379d424a0a2b559ea0a1479626ed52ccf6c463327c925394a6bec2362d530d"
+      },
+      {
+        "_path": "site-packages/session_info-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ada30431368f836d771e984e15601a1f0c5af6ac8194ee90dd7527170fed92aa",
+        "size_in_bytes": 1005,
+        "sha256_in_prefix": "ada30431368f836d771e984e15601a1f0c5af6ac8194ee90dd7527170fed92aa"
+      },
+      {
+        "_path": "site-packages/session_info-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/session_info-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92,
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0"
+      },
+      {
+        "_path": "site-packages/session_info-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "23390828d8f17d1538408f2a371cc4cdb153be52132162dea7564a91982f59a4",
+        "size_in_bytes": 108,
+        "sha256_in_prefix": "23390828d8f17d1538408f2a371cc4cdb153be52132162dea7564a91982f59a4"
+      },
+      {
+        "_path": "site-packages/session_info-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e03743ab768cdc8d8f59f57e4d108352a0d7b878a24327af03f0811da72e3156",
+        "size_in_bytes": 13,
+        "sha256_in_prefix": "e03743ab768cdc8d8f59f57e4d108352a0d7b878a24327af03f0811da72e3156"
+      },
+      {
+        "_path": "site-packages/session_info/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0f409a06753ff8fefc6ef50f744205a501ee48438e64a16eb5c4e2f95c1129d9",
+        "size_in_bytes": 117,
+        "sha256_in_prefix": "0f409a06753ff8fefc6ef50f744205a501ee48438e64a16eb5c4e2f95c1129d9"
+      },
+      {
+        "_path": "site-packages/session_info/_version.py",
+        "path_type": "hardlink",
+        "sha256": "fc034aef02c7b6eef854b59c155ff57cc0835df56385dce0cd8923b3c2298f77",
+        "size_in_bytes": 497,
+        "sha256_in_prefix": "fc034aef02c7b6eef854b59c155ff57cc0835df56385dce0cd8923b3c2298f77"
+      },
+      {
+        "_path": "site-packages/session_info/main.py",
+        "path_type": "hardlink",
+        "sha256": "912b59ec3a00887b11ef14b4aaf2dae4cd4c556973a2e29829ddbc21499a5dd3",
+        "size_in_bytes": 13712,
+        "sha256_in_prefix": "912b59ec3a00887b11ef14b4aaf2dae4cd4c556973a2e29829ddbc21499a5dd3"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/session_info/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/python3.9/site-packages/session_info/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "lib/python3.9/site-packages/session_info/__pycache__/main.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9108
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/session-info-1.0.0-pyhd8ed1ab_0",
+    "type": 1
+  }
+}

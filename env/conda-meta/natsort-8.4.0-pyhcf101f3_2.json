@@ -1,0 +1,276 @@
+{
+  "name": "natsort",
+  "version": "8.4.0",
+  "build": "pyhcf101f3_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "natsort-8.4.0-pyhcf101f3_2.conda",
+  "md5": "e941e85e273121222580723010bd4fa2",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/natsort-8.4.0-pyhcf101f3_2.conda",
+  "sha256": "aeb1548eb72e4f198e72f19d242fb695b35add2ac7b2c00e0d83687052867680",
+  "depends": [
+    "python >=3.9",
+    "python"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "MIT",
+  "package_type": "noarch_python",
+  "timestamp": 1770905275000,
+  "size": 39262,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/natsort-8.4.0-pyhcf101f3_2.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/natsort-8.4.0-pyhcf101f3_2",
+  "files": [
+    "lib/python3.9/site-packages/natsort/__init__.py",
+    "lib/python3.9/site-packages/natsort/__main__.py",
+    "lib/python3.9/site-packages/natsort/compat/__init__.py",
+    "lib/python3.9/site-packages/natsort/compat/fake_fastnumbers.py",
+    "lib/python3.9/site-packages/natsort/compat/fastnumbers.py",
+    "lib/python3.9/site-packages/natsort/compat/locale.py",
+    "lib/python3.9/site-packages/natsort/natsort.py",
+    "lib/python3.9/site-packages/natsort/ns_enum.py",
+    "lib/python3.9/site-packages/natsort/py.typed",
+    "lib/python3.9/site-packages/natsort/unicode_numbers.py",
+    "lib/python3.9/site-packages/natsort/unicode_numeric_hex.py",
+    "lib/python3.9/site-packages/natsort/utils.py",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/licenses/LICENSE",
+    "lib/python3.9/site-packages/natsort-8.4.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/natsort/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/compat/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/compat/__pycache__/fake_fastnumbers.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/compat/__pycache__/fastnumbers.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/compat/__pycache__/locale.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/__pycache__/natsort.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/__pycache__/ns_enum.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/__pycache__/unicode_numbers.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/__pycache__/unicode_numeric_hex.cpython-39.pyc",
+    "lib/python3.9/site-packages/natsort/__pycache__/utils.cpython-39.pyc",
+    "bin/natsort"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/natsort/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7f048962f662a51dbdaa4b1a73d20fb9f8a4f754a1348c5aec9ea4d910623041",
+        "size_in_bytes": 1143,
+        "sha256_in_prefix": "7f048962f662a51dbdaa4b1a73d20fb9f8a4f754a1348c5aec9ea4d910623041"
+      },
+      {
+        "_path": "site-packages/natsort/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "fcbeb493980f2785b6bdbb57978b19d3f6170e2c6c884dd4301f48e25568f0b7",
+        "size_in_bytes": 10474,
+        "sha256_in_prefix": "fcbeb493980f2785b6bdbb57978b19d3f6170e2c6c884dd4301f48e25568f0b7"
+      },
+      {
+        "_path": "site-packages/natsort/compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/natsort/compat/fake_fastnumbers.py",
+        "path_type": "hardlink",
+        "sha256": "b19ebdb903dc29141fed59dddeb1bc390af9305c89e084a3e99b994f2234ae48",
+        "size_in_bytes": 3149,
+        "sha256_in_prefix": "b19ebdb903dc29141fed59dddeb1bc390af9305c89e084a3e99b994f2234ae48"
+      },
+      {
+        "_path": "site-packages/natsort/compat/fastnumbers.py",
+        "path_type": "hardlink",
+        "sha256": "6590f70366d520b58a1c294e60b853250eba429c95498d803b675f0748dab253",
+        "size_in_bytes": 2318,
+        "sha256_in_prefix": "6590f70366d520b58a1c294e60b853250eba429c95498d803b675f0748dab253"
+      },
+      {
+        "_path": "site-packages/natsort/compat/locale.py",
+        "path_type": "hardlink",
+        "sha256": "595879d521af67b47cf570e58f956cfaf6b94fbf2a5462ab87d2d45264c925f8",
+        "size_in_bytes": 4385,
+        "sha256_in_prefix": "595879d521af67b47cf570e58f956cfaf6b94fbf2a5462ab87d2d45264c925f8"
+      },
+      {
+        "_path": "site-packages/natsort/natsort.py",
+        "path_type": "hardlink",
+        "sha256": "a44112339530d3b42afc48ea938944581d300869875352440fc0dfaa1da00d7f",
+        "size_in_bytes": 23834,
+        "sha256_in_prefix": "a44112339530d3b42afc48ea938944581d300869875352440fc0dfaa1da00d7f"
+      },
+      {
+        "_path": "site-packages/natsort/ns_enum.py",
+        "path_type": "hardlink",
+        "sha256": "110a51c2b7a8bee25a0d4862a789eb999244b5cb5dd22c8f19aa1dde764d8f49",
+        "size_in_bytes": 7425,
+        "sha256_in_prefix": "110a51c2b7a8bee25a0d4862a789eb999244b5cb5dd22c8f19aa1dde764d8f49"
+      },
+      {
+        "_path": "site-packages/natsort/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/natsort/unicode_numbers.py",
+        "path_type": "hardlink",
+        "sha256": "ac1c969cdc55d186e6ba479483ae62d7800d8dc1d05d1cc677456b709dd5f433",
+        "size_in_bytes": 1277,
+        "sha256_in_prefix": "ac1c969cdc55d186e6ba479483ae62d7800d8dc1d05d1cc677456b709dd5f433"
+      },
+      {
+        "_path": "site-packages/natsort/unicode_numeric_hex.py",
+        "path_type": "hardlink",
+        "sha256": "71265fd660f396c1d18ca3040f5cc2d375f17bb31611732d08f36712a99a228c",
+        "size_in_bytes": 23451,
+        "sha256_in_prefix": "71265fd660f396c1d18ca3040f5cc2d375f17bb31611732d08f36712a99a228c"
+      },
+      {
+        "_path": "site-packages/natsort/utils.py",
+        "path_type": "hardlink",
+        "sha256": "64e2ac81a33c6a407e7a318b6d9fa04380dcf17a6f7e4cd44163a5c5e4f1cbed",
+        "size_in_bytes": 28544,
+        "sha256_in_prefix": "64e2ac81a33c6a407e7a318b6d9fa04380dcf17a6f7e4cd44163a5c5e4f1cbed"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6,
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3a2d3154ed5d9dd5d3f8ae75111677284dbc24937431c5da365742a893250928",
+        "size_in_bytes": 21974,
+        "sha256_in_prefix": "3a2d3154ed5d9dd5d3f8ae75111677284dbc24937431c5da365742a893250928"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9b091d30a0ec1d1d42575db45780f3f7ac3587e01e6b3ccd5c0003f2f9d51f5d",
+        "size_in_bytes": 2381,
+        "sha256_in_prefix": "9b091d30a0ec1d1d42575db45780f3f7ac3587e01e6b3ccd5c0003f2f9d51f5d"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f5faff1951932b266b814b04f6eb2700e8fe574ec0d7e772c4eedef0606a93e9",
+        "size_in_bytes": 118,
+        "sha256_in_prefix": "f5faff1951932b266b814b04f6eb2700e8fe574ec0d7e772c4eedef0606a93e9"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "06e426b306d6bca1ddca0198d505992b7edcb24d347b84b8817fcc1f397fb21e",
+        "size_in_bytes": 50,
+        "sha256_in_prefix": "06e426b306d6bca1ddca0198d505992b7edcb24d347b84b8817fcc1f397fb21e"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "81d078140eae25b31f257407190f4cdcb80177979749726e2aae4f2cdd90f623",
+        "size_in_bytes": 1063,
+        "sha256_in_prefix": "81d078140eae25b31f257407190f4cdcb80177979749726e2aae4f2cdd90f623"
+      },
+      {
+        "_path": "site-packages/natsort-8.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "182bfab90b01aaf43c6eaf1f1b2489e94a2add9a8a4b4d9f6790a1d247f73c89",
+        "size_in_bytes": 8,
+        "sha256_in_prefix": "182bfab90b01aaf43c6eaf1f1b2489e94a2add9a8a4b4d9f6790a1d247f73c89"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9765
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/compat/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/compat/__pycache__/fake_fastnumbers.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3221
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/compat/__pycache__/fastnumbers.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/compat/__pycache__/locale.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3062
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/__pycache__/natsort.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 22885
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/__pycache__/ns_enum.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7123
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/__pycache__/unicode_numbers.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1140
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/__pycache__/unicode_numeric_hex.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9545
+      },
+      {
+        "_path": "lib/python3.9/site-packages/natsort/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 25338
+      },
+      {
+        "_path": "bin/natsort",
+        "path_type": "unix_python_entry_point",
+        "size_in_bytes": 281
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/natsort-8.4.0-pyhcf101f3_2",
+    "type": 1
+  }
+}

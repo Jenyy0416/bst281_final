@@ -1,0 +1,66 @@
+{
+  "name": "libbrotlidec",
+  "version": "1.2.0",
+  "build": "hc919400_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libbrotlidec-1.2.0-hc919400_1.conda",
+  "md5": "079e88933963f3f149054eec2c487bc2",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libbrotlidec-1.2.0-hc919400_1.conda",
+  "sha256": "2eae444039826db0454b19b52a3390f63bfe24f6b3e63089778dd5a5bf48b6bf",
+  "depends": [
+    "__osx >=11.0",
+    "libbrotlicommon 1.2.0 hc919400_1"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1764017979000,
+  "size": 29452,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libbrotlidec-1.2.0-hc919400_1.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libbrotlidec-1.2.0-hc919400_1",
+  "files": [
+    "lib/libbrotlidec.1.2.0.dylib",
+    "lib/libbrotlidec.1.dylib",
+    "lib/libbrotlidec.dylib",
+    "lib/pkgconfig/libbrotlidec.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libbrotlidec.1.2.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "2cc8d176c6c992deb6e01083dea7ba4549736ade05f98e1f1a5d4e0ab119bdd0",
+        "size_in_bytes": 87568,
+        "sha256_in_prefix": "2cc8d176c6c992deb6e01083dea7ba4549736ade05f98e1f1a5d4e0ab119bdd0"
+      },
+      {
+        "_path": "lib/libbrotlidec.1.dylib",
+        "path_type": "softlink",
+        "sha256": "2cc8d176c6c992deb6e01083dea7ba4549736ade05f98e1f1a5d4e0ab119bdd0",
+        "size_in_bytes": 87568
+      },
+      {
+        "_path": "lib/libbrotlidec.dylib",
+        "path_type": "softlink",
+        "sha256": "2cc8d176c6c992deb6e01083dea7ba4549736ade05f98e1f1a5d4e0ab119bdd0",
+        "size_in_bytes": 87568
+      },
+      {
+        "_path": "lib/pkgconfig/libbrotlidec.pc",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/brotli-split_1764017116075/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "bf887b4fc73f151a38187eecd7a52a1569d7e9e90b8af766d5f9f4d1d74b9778",
+        "size_in_bytes": 787,
+        "sha256_in_prefix": "eb4b1c606db6ab5bee1e45976f7edba5aaa707fa11b7b3b96a1dc313a0d75cb6"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libbrotlidec-1.2.0-hc919400_1",
+    "type": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "seaborn",
+  "version": "0.13.2",
+  "build": "hd8ed1ab_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "seaborn-0.13.2-hd8ed1ab_3.conda",
+  "md5": "62afb877ca2c2b4b6f9ecb37320085b6",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/seaborn-0.13.2-hd8ed1ab_3.conda",
+  "sha256": "ea29a69b14dd6be5cdeeaa551bf50d78cafeaf0351e271e358f9b820fcab4cb0",
+  "depends": [
+    "seaborn-base 0.13.2 pyhd8ed1ab_3",
+    "statsmodels >=0.12"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "BSD-3-Clause",
+  "package_type": "noarch_python",
+  "timestamp": 1733730113000,
+  "size": 6876,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/seaborn-0.13.2-hd8ed1ab_3.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/seaborn-0.13.2-hd8ed1ab_3",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/seaborn-0.13.2-hd8ed1ab_3",
+    "type": 1
+  }
+}

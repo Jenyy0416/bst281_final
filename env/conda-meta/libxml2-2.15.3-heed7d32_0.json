@@ -1,0 +1,59 @@
+{
+  "name": "libxml2",
+  "version": "2.15.3",
+  "build": "heed7d32_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "libxml2-2.15.3-heed7d32_0.conda",
+  "md5": "0c1fdc80534d8f25fd74722aba81f044",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libxml2-2.15.3-heed7d32_0.conda",
+  "sha256": "4d9c117b2dd222cf891710d5f6a570ebb275479979843a1477ac54ed50907b40",
+  "depends": [
+    "__osx >=11.0",
+    "libiconv >=1.18,<2.0a0",
+    "liblzma >=5.8.3,<6.0a0",
+    "libxml2-16 2.15.3 h6967ea9_0",
+    "libzlib >=1.3.2,<2.0a0"
+  ],
+  "constrains": [
+    "icu <0.0a0"
+  ],
+  "license": "MIT",
+  "timestamp": 1776377341000,
+  "size": 41663,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libxml2-2.15.3-heed7d32_0.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libxml2-2.15.3-heed7d32_0",
+  "files": [
+    "bin/xmlcatalog",
+    "bin/xmllint"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/xmlcatalog",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libxml2-split_1776376697005/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "3a7cb48c0d68194795f8dc3d6a1ac5e0833b65a1c0c63c322191da2ce7a45773",
+        "size_in_bytes": 53728,
+        "sha256_in_prefix": "a3e467f4a3c1a346988b14b593636b55950055d20d123193c1961e53e195a2ca"
+      },
+      {
+        "_path": "bin/xmllint",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libxml2-split_1776376697005/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "db81be8a732cf179403e6c4a740f72772f5890de9cb3451b5e9f5525ea9f5c19",
+        "size_in_bytes": 116512,
+        "sha256_in_prefix": "5a581037ffba6e157b29f3298c20a5e50783ef50b7f474aacb9ae54bd9a0e880"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libxml2-2.15.3-heed7d32_0",
+    "type": 1
+  }
+}
