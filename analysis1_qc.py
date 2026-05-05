@@ -89,6 +89,9 @@ def harmonise_columns(meta):
     """
     Normalise common column name variants so the rest of the script
     uses consistent names: nFeature_RNA, nCount_RNA, pctMT, donor, disease.
+
+    For this Zenodo dataset, disease is derived from batchCond or subclustCond
+    (e.g. "AD_batch1" -> "AD", "Control_batch2" -> "Control").
     """
     rename = {}
     col_lower = {c.lower(): c for c in meta.columns}
@@ -106,7 +109,30 @@ def harmonise_columns(meta):
         for opt in options:
             if opt in col_lower and target not in meta.columns:
                 rename[col_lower[opt]] = target
-    return meta.rename(columns=rename)
+    meta = meta.rename(columns=rename)
+
+    # If disease still missing, derive it from batchCond or subclustCond
+    # Expected format: "AD_batch1", "Control_batch2", "AD_Microglia", etc.
+    if "disease" not in meta.columns:
+        for src_col in ["batchCond", "subclustCond", "batchcond", "subclustcond"]:
+            if src_col in meta.columns:
+                def _extract_disease(val):
+                    val = str(val)
+                    if val.lower().startswith("ad"):
+                        return "AD"
+                    elif val.lower().startswith("control") or val.lower().startswith("ctrl"):
+                        return "Control"
+                    # Fallback: take everything before first underscore
+                    return val.split("_")[0]
+                meta["disease"] = meta[src_col].apply(_extract_disease)
+                print(f"  Derived 'disease' column from '{src_col}': "
+                      f"{sorted(meta['disease'].unique())}")
+                break
+        if "disease" not in meta.columns:
+            print("  Warning: could not derive 'disease' column. "
+                  "Setting all cells to 'Unknown'.")
+            meta["disease"] = "Unknown"
+    return meta
 
 
 def compute_qc_if_missing(adata):
@@ -364,10 +390,19 @@ def main():
     # ── 2. Load count matrix ─────────────────────────────────────────────────
     print("\n[2/6] Loading count matrix ...")
 
-    # Try to auto-detect features / barcodes from the same directory as matrix
-    matrix_dir = os.path.dirname(args.matrix)
+    # Resolve features / barcodes paths
+    # Priority: explicit CLI arg (trusted as-is) -> auto-detect next to matrix
+    matrix_dir = os.path.dirname(os.path.abspath(args.matrix))
+
     def _find(candidates, explicit):
-        if explicit and os.path.exists(explicit):
+        if explicit:
+            # Trust the explicit path; try as-is first, then relative to matrix dir
+            if os.path.exists(explicit):
+                return os.path.abspath(explicit)
+            alt = os.path.join(matrix_dir, os.path.basename(explicit))
+            if os.path.exists(alt):
+                return alt
+            # Return as-is even if not verified; pandas/scipy will give clear error
             return explicit
         for cand in candidates:
             path = os.path.join(matrix_dir, cand)
@@ -376,12 +411,13 @@ def main():
         return None
 
     features_path = _find(
-        ["features.tsv", "features.tsv.gz", "genes.tsv", "genes.tsv.gz",
-         "adsn_features.txt", "adsn_genes.txt"],
+        ["adsn_features.tsv.gz", "features.tsv.gz", "features.tsv",
+         "genes.tsv.gz", "genes.tsv", "adsn_features.txt"],
         args.features
     )
     barcodes_path = _find(
-        ["barcodes.tsv", "barcodes.tsv.gz", "adsn_barcodes.txt"],
+        ["adsn_barcodes.tsv.gz", "barcodes.tsv.gz",
+         "barcodes.tsv", "adsn_barcodes.txt"],
         args.barcodes
     )
 
@@ -436,7 +472,12 @@ def main():
     before_df = (meta_pre.groupby("donor")
                  .agg(n_before=("nFeature_RNA", "count"),
                       disease=("disease", "first"))
-                 .reset_index())
+                 .reset_index()
+                 if "disease" in meta_pre.columns
+                 else meta_pre.groupby("donor")
+                 .agg(n_before=("nFeature_RNA", "count"))
+                 .reset_index()
+                 .assign(disease="Unknown"))
 
     # ── 5. QC visualisations (pre-filter) ───────────────────────────────────
     print("\n[5/6] Generating pre-filter QC plots ...")

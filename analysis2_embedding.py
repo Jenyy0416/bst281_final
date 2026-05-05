@@ -269,17 +269,22 @@ def plot_marker_heatmap(adata, marker_dict, outpath):
     all_m = [g for gs in marker_dict.values() for g in gs]
     # Compute mean expression per Leiden cluster
     clusters = sorted(adata.obs["leiden"].unique(), key=lambda x: int(x))
-    mean_expr = pd.DataFrame(
-        {cl: np.array(
-            adata[adata.obs["leiden"] == cl, all_m].X.mean(axis=0)
-        ).flatten()
-         for cl in clusters},
-        index=all_m
+    rows = {}
+    for cl in clusters:
+        sub = adata[adata.obs["leiden"] == cl, all_m]
+        vals = np.array(sub.X.mean(axis=0)).flatten()
+        rows[cl] = vals
+    # genes as rows, clusters as columns
+    mean_expr = pd.DataFrame(rows, index=all_m)   # shape: (n_genes, n_clusters)
+
+    # z-score each gene (row) across clusters — returns same shape DataFrame
+    from scipy.stats import zscore as _zscore
+    mean_z = mean_expr.apply(
+        lambda row: pd.Series(_zscore(row.values, ddof=1), index=row.index)
+                   if row.std() > 0
+                   else row,
+        axis=1
     )
-    # z-score across clusters per gene
-    from scipy.stats import zscore
-    mean_z = mean_expr.apply(lambda row: zscore(row, ddof=1)
-                             if row.std() > 0 else row, axis=1)
 
     fig, ax = plt.subplots(figsize=(max(8, len(clusters) * 0.7),
                                     max(6, len(all_m) * 0.35)))

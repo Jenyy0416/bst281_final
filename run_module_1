@@ -1,14 +1,14 @@
 # depending on 
-pip install scanpy anndata scipy pandas matplotlib seaborn scikit-learn
+pip install scanpy anndata scipy pandas matplotlib seaborn scikit-learn leidenalg
 # Analysis 1
 python analysis1_qc.py \
-  --matrix   adsn_matrix.mtx.gz \
-  --features adsn_features.txt \
-  --barcodes adsn_barcodes.txt \
-  --metadata adsn_metadata.txt \
-  --outdir   results/analysis1
+  --matrix   data/raw/adsn_matrix.mtx.gz \
+  --features data/raw/adsn_features.tsv.gz \
+  --barcodes data/raw/adsn_barcodes.tsv.gz \
+  --metadata data/raw/adsn_metadata.txt \
+  --outdir   data/results/analysis1
 
 # Analysis 2（依赖 Analysis 1 的输出）
 python analysis2_embedding.py \
-  --adata  results/analysis1/adata_filtered.h5ad \
-  --outdir results/analysis2
+  --adata  data/results/analysis1/adata_filtered.h5ad \
+  --outdir data/results/analysis2
