@@ -1,0 +1,19 @@
+# depending on
+pip install scanpy anndata scipy pandas numpy matplotlib seaborn scikit-learn leidenalg sccoda h5py statsmodels
+
+# Module 2 depends on Module 1 outputs:
+# data/results/adata_embedded.h5ad
+# data/results/adata_embedded_fixed.h5ad
+# data/results/table_nuclei_per_donor_celltype.csv
+
+# Analysis 0: donor / sample summary table
+python module2_sample_summary.py
+
+# Analysis 1: broad donor-level cell-type composition
+python module2_analysis1.py
+
+# Analysis 2: scCODA compositional model with reference sensitivity
+python module2_scCODA_sensitivity.py
+
+# Analysis 3: focal cell-type true subclustering with low-count filter
+python module2_analysis2_true_subclustering.py
