@@ -1,0 +1,23 @@
+# depending on
+# Python packages for exporting pseudo-bulk counts from AnnData
+pip install anndata scipy pandas numpy h5py
+
+# R packages needed:
+# install.packages(c("tidyverse", "pheatmap", "ggrepel", "msigdbr", "BiocManager"))
+# BiocManager::install(c("DESeq2", "clusterProfiler", "org.Hs.eg.db", "enrichplot"))
+
+# Module 3 depends on Module 1/2 outputs:
+# adata_embedded_fixed.h5ad
+# or data/adata_embedded_fixed.h5ad depending on where the file is saved
+
+# Analysis 0: check focal cell-type donor coverage and justify selected cell type
+python module3_check_celltype_coverage.py
+
+# Analysis 1 step 1: export astrocyte donor-level pseudo-bulk raw counts from AnnData
+python module3_export_pseudobulk_astro.py
+
+# Analysis 1 step 2: run astrocyte pseudo-bulk DESeq2 analysis in R
+Rscript module3_deseq2_astro.R
+
+# Analysis 2: functional enrichment and biological interpretation
+Rscript module3_enrichment_astro.R
